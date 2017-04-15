@@ -13,6 +13,6 @@ app.get('/',
   }
 );
 
-app.listen(config.port, () => {
-  console.log(`Running on port ${config.port}`);
+app.listen(process.env.PORT || config.port, () => {
+  console.log(`Running on port ${process.env.PORT || config.port}`);
 });
