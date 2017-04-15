@@ -1,5 +1,5 @@
 {
-  "start": "node index.js"
+  "start": "node index.js",
   "name": "podcast-rss-feed-generator",
   "version": "1.0.0",
   "description": "Small configurable web app intended for generating RSS feeds for Podcasts.",
