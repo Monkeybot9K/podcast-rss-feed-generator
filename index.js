@@ -8,7 +8,7 @@ const app = express();
 app.get('/',
   podcast.fetchFeed,
   (req, res) => {
-    res.type('html');
+    res.type('xml');
     res.status(200).send(req.feed);
   }
 );
