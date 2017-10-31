@@ -1,6 +1,6 @@
 {
   "port": "3000",
-  "author": "Your podcast author"
+  "author": "Your podcast author",
   "podcastTitle": "Your podcast title",
   "archiveCollection": "your-archive-colletion",
   "image": "podcastImageUrl",
