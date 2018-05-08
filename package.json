@@ -25,6 +25,7 @@
     "async": "2.0.1",
     "democracyos-config": "1.1.0",
     "express": "4.14.0",
+    "nodegit": "0.21.1",
     "internet-archive": "1.0.4",
     "lodash": "4.14.2",
     "superagent": "2.1.0"

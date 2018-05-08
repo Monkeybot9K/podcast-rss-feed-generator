@@ -1,4 +1,5 @@
 const express = require('express');
+const git = require('nodegit');
 
 const config = require('./config');
 const podcast = require('./lib/podcast');
