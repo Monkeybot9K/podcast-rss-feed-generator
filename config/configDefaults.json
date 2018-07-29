@@ -1,0 +1,15 @@
+{
+  "port": "3000",
+  "author": "SpreadShotNews",
+  "authorURL": "http://spreadshotnews.com",
+  "authorEmail": "spreadshotnews@gmail.com",
+  "podcastTitle": "SpreadShotNews",
+  "podcastDescription": "Podcast donde hablaremos de lo que hay, lo que hubo y lo que se viene en el mundo de los juegos, previews, reviews, opinión, noticias, invitados y más!",
+  "category": "Video Games",
+  "parentCategory": "Games &amp; Hobbies",
+  "language": "es-AR",
+  "explicit": "yes",
+  "archiveCollection": "spreadshotnewspodcast",
+  "image": "http://spreadshotnews.com/assets/SSN_1400.jpg",
+  "numberOfRows": 1000
+}

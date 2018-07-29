@@ -1,6 +1,6 @@
 const express = require('express');
 
-const config = require('./config');
+const {env} = require('./config/config');
 const podcast = require('./lib/podcast');
 
 const app = express();
@@ -13,6 +13,6 @@ app.get('/',
   }
 );
 
-app.listen(process.env.PORT || config.port, () => {
-  console.log(`Running on port ${process.env.PORT || config.port}`);
+app.listen(env.port, () => {
+  console.log(`Running on port ${env.port}`);
 });

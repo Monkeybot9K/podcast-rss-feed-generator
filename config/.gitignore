@@ -1,2 +1,2 @@
 *.json
-!defaults.json
+!configDefaults.json
