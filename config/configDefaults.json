@@ -1,5 +1,6 @@
 {
   "port": "3000",
+  "timeoutValue": "180000",
   "author": "SpreadShotNews",
   "authorURL": "http://spreadshotnews.com",
   "authorEmail": "spreadshotnews@gmail.com",

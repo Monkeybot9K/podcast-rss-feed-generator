@@ -2,6 +2,7 @@ const configDefaults = require('./configDefaults.json');
 
 const env = {
     port: process.env.PORT || '3000',
+    timeoutValue: parseInt(process.env.TIMEOUT_VALUE || configDefaults.timeoutValue),
     author: process.env.AUTHOR || configDefaults.author,
     authorURL: process.env.AUTHOR_URL || configDefaults.authorURL,
     authorEmail: process.env.AUTHOR_EMAIL || configDefaults.authorEmail,

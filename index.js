@@ -12,7 +12,7 @@ app.use((err, req, res, next) => {
 
 app.get('/',
   podcast.fetchFeed, (req, res) => {
-    res.setTimeout(120000)
+    req.setTimeout(env.timeoutValue);
     res.type('xml');
     res.status(200).send(req.feed);
     console.log('Feed successfully generated and retrieved');
