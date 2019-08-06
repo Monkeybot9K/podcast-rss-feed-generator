@@ -27,7 +27,7 @@
     "express": "4.17.1",
     "nodegit": "0.24.3",
     "internet-archive": "1.0.4",
-    "lodash": "4.17.11",
+    "lodash": "4.17.13",
     "superagent": "5.0.5"
   },
   "directories": {
